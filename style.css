@@ -8,7 +8,7 @@ body {
 
 /* Gray header */
 header {
-  background-color: #e0e0e0;  /* Light gray */
+  background-color: rgb(60, 60, 60);
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
@@ -48,4 +48,31 @@ footer {
 main {
   padding: 20px 30px;
   min-height: 70vh;
+}
+
+
+/* Make footer stick to bottom */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* pushes footer to the bottom */
+  padding: 20px 30px;
+}
+
+footer {
+  background-color: rgb(60, 60, 60);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-top: 2px solid #444;
+  width: 100%;
+  margin: 0; /* remove any leftover spacing */
 }
