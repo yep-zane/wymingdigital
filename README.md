@@ -19,5 +19,5 @@ You can reach us at our [public contact email](mailto:contact@wymingdigital.co.u
 
 Follow us on [GitHub](https://github.com/Wyming-Digital)
 
-© 2025 Wyming Digital
+© 2026 Wyming Digital
 Updated 25.12.25
